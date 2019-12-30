@@ -10,7 +10,7 @@ Please refer to 'eg_simulation1.py' for an example of the application, which is 
 * SLRT_faster.py
 
 The SLRT_faster module is a faster implementation of Algorithm 1, where we firstly choose the split variable by investigating a small number of split levels.
-Please refer to the folders 'examples/eg_xxx'(xxx denotes the dataset name) for examples of applications, which are also the codes for section 5.2.
+Please refer to the folder 'eg_Boston_housing' for examples of applications.
  
 * RT.py 
  
