@@ -5,7 +5,7 @@ This repository includes the Python code for SLRT(Segmented Linear Regression Tr
 * SLRT.py
 
 The SLRT module is the implementation of Algorithm 1 in section 3.1.
-Please refer to the folder 'examples/eg_simulation1' for an example of the application, which is also the simulation example in section 5.1.
+Please refer to 'eg_simulation1.py' for an example of the application, which is also the simulation example in section 5.1.
 
 * SLRT_faster.py
 
