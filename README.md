@@ -19,7 +19,7 @@ The tree construction uses the simple stopping rule and includes the function fo
 
 * SLRT_alg2_testing.py
 
-The SLRT module is for Algorithm 1 for correlated regressors.
+The SLRT module is for Algorithm 2 for correlated regressors.
 The tree construction uses the hypothesis testing based stopping rule.
 
 * tree_lasso.py
