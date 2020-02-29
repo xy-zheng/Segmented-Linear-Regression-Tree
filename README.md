@@ -2,19 +2,25 @@
 
 This repository includes the Python code for SLRT(Segmented Linear Regression Tree) in our paper "Partitioning Structure Learning for Segmented Linear Regression Trees" (NeurIPS 2019).
 
-* SLRT.py
+* SLRT_alg1_simple.py
 
-The SLRT module is the implementation of Algorithm 1 in section 3.1.
-Please refer to 'eg_simulation1.py' for an example of the application, which is also the simulation example in section 5.1.
+The SLRT module is for Algorithm 1 for conditionally uncorrelated regressors.
+The tree construction uses the simple stopping rule and includes the function for pruning (cvt()).
 
-* SLRT_faster.py
+* SLRT_alg1_testing.py
 
-The SLRT_faster module is a faster implementation of Algorithm 1, where we firstly choose the split variable by investigating a small number of split levels.
-Please refer to the folder 'eg_Boston_housing' for examples of applications.
- 
-* RT.py 
- 
- The RT module is the implementations of CART, see "Classification and Regression Trees" by Breiman et al. (1984).
+The SLRT module is for Algorithm 1 for conditionally uncorrelated regressors.
+The tree construction uses the hypothesis testing based stopping rule.
+
+* SLRT_alg2_simple.py
+
+The SLRT module is for Algorithm 2 for correlated regressors.
+The tree construction uses the simple stopping rule and includes the function for pruning (cvt()).
+
+* SLRT_alg2_testing.py
+
+The SLRT module is for Algorithm 1 for correlated regressors.
+The tree construction uses the hypothesis testing based stopping rule.
 
 * tree_lasso.py
 
