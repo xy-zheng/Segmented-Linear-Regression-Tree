@@ -26,9 +26,10 @@ The tree construction uses the hypothesis testing based stopping rule.
 
 This module were called in the examples on public datasets (in folders 'examples/eg_xxx'), which combines the data partitioning results with LASSO estimation on leaves.
 
-* treeWriter.py, treeWriter_err.py and treeWriter_beta.py
+* plot_tree.py
 
-The three modules are all for plotting the tree.
-treeWriter_err.py is for tree plot containing the estimated standard error at each leaf node.
-treeWriter_beta.py is for tree plot containing the estimated linearregression function.
-Please refer to 'examples/eg_simulation1' for the use of these modules. The figure 1 in our paper was the output of treeWriter.py.
+This is for plotting the tree structures.
+
+* example_illustration.py
+
+To illustrate the parameters setting for SLRT algorithm, where the variables for regression and for splitting can be assigned by users.
