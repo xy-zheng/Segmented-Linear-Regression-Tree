@@ -29,6 +29,6 @@ This is for plotting the tree structures, with models displayed on each leaf.
 
 * tree_lasso.py
 
-This module were called in the examples on public datasets (in folders 'examples/eg_xxx'), which combines the data partitioning results with LASSO estimation on leaves.
+This module combines the data partitioning results with LASSO estimation on leaves.
 
 
